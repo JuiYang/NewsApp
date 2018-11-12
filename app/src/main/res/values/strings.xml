@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="title_activity_guide">GuideActivity</string>
+    <string name="guide_text">开始体验</string>
+</resources>
