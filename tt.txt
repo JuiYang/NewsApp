@@ -1760,7 +1760,7 @@
 11-09 15:11:28.730  3601  4777 V WindowManager: Changing focus from Window{f397a5e u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.SplashActivity} to null Callers=com.android.server.wm.WindowManagerService.setFocusedApp:2772 com.android.server.am.ActivityManagerService.setResumedActivityUncheckLocked:3306 com.android.server.am.ActivityStack.setResumedActivityLocked:2284 com.android.server.am.ActivityStack.minimalResumeActivityLocked:1093 
 11-09 15:11:28.731  3601  4777 D WindowManager: Input focus has changed to null
 11-09 15:11:28.734  3601  3697 I WindowManager: Focus moving from Window{f397a5e u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.SplashActivity} to null
-11-09 15:11:28.736   411   445 I vendor.mediatek.hardware.power@1.1-impl: notifyAppState pack:com.liyu.tcl.newsapp, act:com.liyu.tcl.newsapp.GuideActivity, pid:23564, state:1
+11-09 15:11:28.736   411   445 I vendor.mediatek.hardware.power@1.1-impl: notifyAppState pack:com.liyu.tcl.newsapp, act:com.liyu.tcl.newsapp.activity.GuideActivity, pid:23564, state:1
 11-09 15:11:28.850  3113  3130 D AAL     : 11-09 03:11:28.708 BL= 349,ESS= 256, 11-09 03:11:28.740 BL= 348,ESS= 256, 11-09 03:11:28.771 BL= 347,ESS= 256, 11-09 03:11:28.818 BL= 346,ESS= 256, 11-09 03:11:28.850 BL= 345,ESS= 256, 
 11-09 15:11:28.961 23564 23564 I SystemServiceRegistry: AttrName service = android.app.IAttrNameManager$Stub$Proxy@2480e4b
 11-09 15:11:28.962 23564 23564 I AttrNameManager: <<<<<<<<<mService = android.app.IAttrNameManager$Stub$Proxy@2480e4b
@@ -1771,34 +1771,34 @@
 11-09 15:11:29.060 23564 23564 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = null, this = DecorView@3dda779[]
 11-09 15:11:29.062 23564 23564 D WindowClient: Add to mViews: DecorView@3dda779[GuideActivity], this = android.view.WindowManagerGlobal@94a9875
 11-09 15:11:29.066 23564 23564 D ViewRootImpl[GuideActivity]: hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
-11-09 15:11:29.071 23564 23564 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = ViewRoot{fcd6c6c com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity,ident = 1}, this = DecorView@3dda779[GuideActivity]
+11-09 15:11:29.071 23564 23564 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = ViewRoot{fcd6c6c com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity,ident = 1}, this = DecorView@3dda779[GuideActivity]
 11-09 15:11:29.116  3113  3130 D AAL     : 11-09 03:11:29.069 BL= 339,ESS= 256, 11-09 03:11:29.101 BL= 338,ESS= 256, 
-11-09 15:11:29.127  3601  4500 I WindowManager: Relayout Window{4d83909 u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity}: oldVis=4 newVis=0 focusMayChange = true
-11-09 15:11:29.135  3601  4500 V WindowManager: Changing focus from null to Window{4d83909 u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity} Callers=com.android.server.wm.WindowManagerService.relayoutWindow:2200 com.android.server.wm.Session.relayout:239 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:163 
-11-09 15:11:29.135  3601  4500 D WindowManager: Input focus has changed to Window{4d83909 u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity}
+11-09 15:11:29.127  3601  4500 I WindowManager: Relayout Window{4d83909 u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity}: oldVis=4 newVis=0 focusMayChange = true
+11-09 15:11:29.135  3601  4500 V WindowManager: Changing focus from null to Window{4d83909 u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity} Callers=com.android.server.wm.WindowManagerService.relayoutWindow:2200 com.android.server.wm.Session.relayout:239 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:163
+11-09 15:11:29.135  3601  4500 D WindowManager: Input focus has changed to Window{4d83909 u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity}
 11-09 15:11:29.143  3601  3841 D WifiStateMachine:  MtkL2ConnectedState { when=-4ms what=131155 arg1=68 target=com.android.internal.util.StateMachine$SmHandler } 68 0, mShouldDeferDisableWifi = false, mState = MONITORING
-11-09 15:11:29.145  3601  3697 I WindowManager: Focus moving from null to Window{4d83909 u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity}
+11-09 15:11:29.145  3601  3697 I WindowManager: Focus moving from null to Window{4d83909 u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity}
 11-09 15:11:29.201 23564 23624 D HWUIExtension: MTKProgramCache.generateProgram: 68719476736
 11-09 15:11:29.202 23564 23624 D HWUIExtension: createProgram 0x0000001000000000, binary 0x9546da2a, length 11105, format 37168 within 733ns
 11-09 15:11:29.214  3601  3697 I ActivityManager: Displayed com.liyu.tcl.newsapp/.GuideActivity: +488ms
 11-09 15:11:29.214 14144 14144 I GoogleInputMethod: onFinishInput() : Dummy InputConnection bound
 11-09 15:11:29.215 14144 14144 I GoogleInputMethod: onStartInput() : Dummy InputConnection bound
 11-09 15:11:29.236   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.SplashActivity#0] opaque layer with plane alpha:0.99 cannot be handled by hwcomposer
-11-09 15:11:29.236   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.48 cannot be handled by hwcomposer
+11-09 15:11:29.236   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.48 cannot be handled by hwcomposer
 11-09 15:11:29.250   411   445 I vendor.mediatek.hardware.power@1.1-impl: PowerHint hint:8, data:0
 11-09 15:11:29.250   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.SplashActivity#0] opaque layer with plane alpha:0.94 cannot be handled by hwcomposer
-11-09 15:11:29.251   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.77 cannot be handled by hwcomposer
+11-09 15:11:29.251   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.77 cannot be handled by hwcomposer
 11-09 15:11:29.255  4620  4620 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = ViewRoot{e076230 com.tct.launcher/com.tct.launcher.Launcher,ident = 0}, this = DecorView@8d9c3e2[Launcher]
 11-09 15:11:29.256  3601  4777 D IdleScreen: activityIdleScreen: android.app.ContextImpl@9092957 mNotifyNeeded: false idleIntent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10800100 cmp=com.tct.launcher/.Launcher }
 11-09 15:11:29.257  3601  4777 E PowerHalWrapper: <amsBoostStop> duration: 6000ms
 11-09 15:11:29.266   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.SplashActivity#0] opaque layer with plane alpha:0.88 cannot be handled by hwcomposer
-11-09 15:11:29.266   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.91 cannot be handled by hwcomposer
+11-09 15:11:29.266   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.91 cannot be handled by hwcomposer
 11-09 15:11:29.283   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.SplashActivity#0] opaque layer with plane alpha:0.82 cannot be handled by hwcomposer
-11-09 15:11:29.283   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.98 cannot be handled by hwcomposer
+11-09 15:11:29.283   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.98 cannot be handled by hwcomposer
 11-09 15:11:29.298   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.SplashActivity#0] opaque layer with plane alpha:0.75 cannot be handled by hwcomposer
-11-09 15:11:29.298   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:1.00 cannot be handled by hwcomposer
+11-09 15:11:29.298   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:1.00 cannot be handled by hwcomposer
 11-09 15:11:29.313   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.SplashActivity#0] opaque layer with plane alpha:0.71 cannot be handled by hwcomposer
-11-09 15:11:29.313   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:1.00 cannot be handled by hwcomposer
+11-09 15:11:29.313   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:1.00 cannot be handled by hwcomposer
 11-09 15:11:29.329   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.SplashActivity#0] opaque layer with plane alpha:0.70 cannot be handled by hwcomposer
 11-09 15:11:29.420 23564 23564 D View    : [Warning] assignParent to null: this = DecorView@36633ac[SplashActivity]
 11-09 15:11:29.423 23564 23564 D WindowClient: Remove from mViews: DecorView@36633ac[SplashActivity], this = android.view.WindowManagerGlobal@94a9875
@@ -1916,10 +1916,10 @@
 11-09 15:11:31.549   393  6313 D AudioALSAPlaybackHandlerNormal: -open()
 11-09 15:11:31.549   393  6313 E AudioALSAPlaybackHandlerBase: -getHardwareBufferInfo(), pcm_get_htimestamp fail, ret = -1, pcm_get_error = 
 11-09 15:11:31.554  3601  4777 V WindowManager: Set focused app to: AppWindowToken{c047679 token=Token{bfa72c3 ActivityRecord{68aee72 u0 com.liyu.tcl.newsapp/.MainActivity t1330}}} old focus=AppWindowToken{b58d0c2 token=Token{5d377a4 ActivityRecord{53d6637 u0 com.liyu.tcl.newsapp/.GuideActivity t1330}}} moveFocusNow=true
-11-09 15:11:31.554  3601  4777 V WindowManager: Changing focus from Window{4d83909 u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity} to null Callers=com.android.server.wm.WindowManagerService.setFocusedApp:2772 com.android.server.am.ActivityManagerService.setResumedActivityUncheckLocked:3306 com.android.server.am.ActivityStack.setResumedActivityLocked:2284 com.android.server.am.ActivityStack.minimalResumeActivityLocked:1093 
+11-09 15:11:31.554  3601  4777 V WindowManager: Changing focus from Window{4d83909 u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity} to null Callers=com.android.server.wm.WindowManagerService.setFocusedApp:2772 com.android.server.am.ActivityManagerService.setResumedActivityUncheckLocked:3306 com.android.server.am.ActivityStack.setResumedActivityLocked:2284 com.android.server.am.ActivityStack.minimalResumeActivityLocked:1093
 11-09 15:11:31.555  3601  4777 D WindowManager: Input focus has changed to null
-11-09 15:11:31.556  3601  3697 I WindowManager: Focus moving from Window{4d83909 u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity} to null
-11-09 15:11:31.557   411   445 I vendor.mediatek.hardware.power@1.1-impl: notifyAppState pack:com.liyu.tcl.newsapp, act:com.liyu.tcl.newsapp.MainActivity, pid:23564, state:1
+11-09 15:11:31.556  3601  3697 I WindowManager: Focus moving from Window{4d83909 u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity} to null
+11-09 15:11:31.557   411   445 I vendor.mediatek.hardware.power@1.1-impl: notifyAppState pack:com.liyu.tcl.newsapp, act:com.liyu.tcl.newsapp.activity.MainActivity, pid:23564, state:1
 11-09 15:11:31.616 23564 23564 I SystemServiceRegistry: AttrName service = android.app.IAttrNameManager$Stub$Proxy@d894046
 11-09 15:11:31.616 23564 23564 I AttrNameManager: <<<<<<<<<mService = android.app.IAttrNameManager$Stub$Proxy@d894046
 11-09 15:11:31.626  3113  3130 D AAL     : 11-09 03:11:31.469 BL= 397,ESS= 256, 11-09 03:11:31.517 BL= 396,ESS= 256, 11-09 03:11:31.548 BL= 395,ESS= 256, 11-09 03:11:31.595 BL= 396,ESS= 256, 11-09 03:11:31.626 BL= 397,ESS= 256, 
@@ -1930,11 +1930,11 @@
 11-09 15:11:31.694 23564 23564 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = null, this = DecorView@f7897a3[]
 11-09 15:11:31.697 23564 23564 D WindowClient: Add to mViews: DecorView@f7897a3[MainActivity], this = android.view.WindowManagerGlobal@94a9875
 11-09 15:11:31.700 23564 23564 D ViewRootImpl[MainActivity]: hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
-11-09 15:11:31.704 23564 23564 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = ViewRoot{13a121e com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity,ident = 2}, this = DecorView@f7897a3[MainActivity]
-11-09 15:11:31.738  3601  4500 I WindowManager: Relayout Window{641c76c u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity}: oldVis=4 newVis=0 focusMayChange = true
-11-09 15:11:31.742  3601  4500 V WindowManager: Changing focus from null to Window{641c76c u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity} Callers=com.android.server.wm.WindowManagerService.relayoutWindow:2200 com.android.server.wm.Session.relayout:239 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:163 
-11-09 15:11:31.742  3601  4500 D WindowManager: Input focus has changed to Window{641c76c u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity}
-11-09 15:11:31.746  3601  3697 I WindowManager: Focus moving from null to Window{641c76c u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity}
+11-09 15:11:31.704 23564 23564 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = ViewRoot{13a121e com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity,ident = 2}, this = DecorView@f7897a3[MainActivity]
+11-09 15:11:31.738  3601  4500 I WindowManager: Relayout Window{641c76c u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity}: oldVis=4 newVis=0 focusMayChange = true
+11-09 15:11:31.742  3601  4500 V WindowManager: Changing focus from null to Window{641c76c u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity} Callers=com.android.server.wm.WindowManagerService.relayoutWindow:2200 com.android.server.wm.Session.relayout:239 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:163
+11-09 15:11:31.742  3601  4500 D WindowManager: Input focus has changed to Window{641c76c u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity}
+11-09 15:11:31.746  3601  3697 I WindowManager: Focus moving from null to Window{641c76c u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity}
 11-09 15:11:31.781  3114  3278 V AudioPolicyIntefaceImpl: stopOutput()
 11-09 15:11:31.781  3114  3278 V AudioPolicyService: AudioCommandThread() adding stop output 13
 11-09 15:11:31.781  3114  3266 V AudioPolicyService: AudioCommandThread() processing stop output 13
@@ -1947,25 +1947,25 @@
 11-09 15:11:31.798 14144 14144 I GoogleInputMethod: onFinishInput() : Dummy InputConnection bound
 11-09 15:11:31.798  3601  3697 I ActivityManager: Displayed com.liyu.tcl.newsapp/.MainActivity: +245ms
 11-09 15:11:31.798 14144 14144 I GoogleInputMethod: onStartInput() : Dummy InputConnection bound
-11-09 15:11:31.809   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.99 cannot be handled by hwcomposer
-11-09 15:11:31.810   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity#0] opaque layer with plane alpha:0.48 cannot be handled by hwcomposer
+11-09 15:11:31.809   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.99 cannot be handled by hwcomposer
+11-09 15:11:31.810   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity#0] opaque layer with plane alpha:0.48 cannot be handled by hwcomposer
 11-09 15:11:31.815  3113  3130 D AAL     : 11-09 03:11:31.673 BL= 398,ESS= 256, 11-09 03:11:31.705 BL= 399,ESS= 256, 11-09 03:11:31.736 BL= 400,ESS= 256, 11-09 03:11:31.783 BL= 401,ESS= 256, 11-09 03:11:31.815 BL= 402,ESS= 256, 
-11-09 15:11:31.824   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.94 cannot be handled by hwcomposer
-11-09 15:11:31.824   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity#0] opaque layer with plane alpha:0.77 cannot be handled by hwcomposer
+11-09 15:11:31.824   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.94 cannot be handled by hwcomposer
+11-09 15:11:31.824   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity#0] opaque layer with plane alpha:0.77 cannot be handled by hwcomposer
 11-09 15:11:31.836   411   445 I vendor.mediatek.hardware.power@1.1-impl: PowerHint hint:8, data:0
 11-09 15:11:31.839  3601  4500 D IdleScreen: activityIdleScreen: android.app.ContextImpl@9092957 mNotifyNeeded: false idleIntent: Intent { cmp=com.liyu.tcl.newsapp/.MainActivity }
-11-09 15:11:31.839   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.88 cannot be handled by hwcomposer
-11-09 15:11:31.839   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity#0] opaque layer with plane alpha:0.91 cannot be handled by hwcomposer
-11-09 15:11:31.855   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.82 cannot be handled by hwcomposer
-11-09 15:11:31.855   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity#0] opaque layer with plane alpha:0.98 cannot be handled by hwcomposer
-11-09 15:11:31.871   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.75 cannot be handled by hwcomposer
-11-09 15:11:31.871   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity#0] opaque layer with plane alpha:1.00 cannot be handled by hwcomposer
-11-09 15:11:31.886   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.71 cannot be handled by hwcomposer
-11-09 15:11:31.887   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity#0] opaque layer with plane alpha:1.00 cannot be handled by hwcomposer
-11-09 15:11:31.902   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.70 cannot be handled by hwcomposer
+11-09 15:11:31.839   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.88 cannot be handled by hwcomposer
+11-09 15:11:31.839   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity#0] opaque layer with plane alpha:0.91 cannot be handled by hwcomposer
+11-09 15:11:31.855   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.82 cannot be handled by hwcomposer
+11-09 15:11:31.855   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity#0] opaque layer with plane alpha:0.98 cannot be handled by hwcomposer
+11-09 15:11:31.871   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.75 cannot be handled by hwcomposer
+11-09 15:11:31.871   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity#0] opaque layer with plane alpha:1.00 cannot be handled by hwcomposer
+11-09 15:11:31.886   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.71 cannot be handled by hwcomposer
+11-09 15:11:31.887   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity#0] opaque layer with plane alpha:1.00 cannot be handled by hwcomposer
+11-09 15:11:31.902   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.70 cannot be handled by hwcomposer
 11-09 15:11:31.956  3113  3130 D AAL     : 11-09 03:11:31.862 BL= 401,ESS= 256, 11-09 03:11:31.878 BL= 400,ESS= 256, 11-09 03:11:31.894 BL= 401,ESS= 256, 11-09 03:11:31.909 BL= 402,ESS= 256, 11-09 03:11:31.956 BL= 403,ESS= 256, 
 11-09 15:11:31.995 23564 23564 D View    : [Warning] assignParent to null: this = DecorView@3dda779[GuideActivity]
-11-09 15:11:31.996   416   499 E SurfaceFlinger: Failed to find layer (com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0) in layer parent (no-parent).
+11-09 15:11:31.996   416   499 E SurfaceFlinger: Failed to find layer (com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0) in layer parent (no-parent).
 11-09 15:11:31.999 23564 23564 D WindowClient: Remove from mViews: DecorView@3dda779[GuideActivity], this = android.view.WindowManagerGlobal@94a9875
 11-09 15:11:32.129  3113  3130 D AAL     : 11-09 03:11:31.987 BL= 404,ESS= 256, 11-09 03:11:32.019 BL= 405,ESS= 256, 11-09 03:11:32.066 BL= 406,ESS= 256, 11-09 03:11:32.097 BL= 407,ESS= 256, 11-09 03:11:32.129 BL= 408,ESS= 256, 
 11-09 15:11:32.160  3601  3841 D WifiStateMachine:  MtkL2ConnectedState { when=-3ms what=131155 arg1=68 target=com.android.internal.util.StateMachine$SmHandler } 68 0, mShouldDeferDisableWifi = false, mState = MONITORING
@@ -2019,7 +2019,7 @@
 11-09 15:11:34.118   411   445 I vendor.mediatek.hardware.power@1.1-impl: PowerHint hint:8, data:1
 11-09 15:11:34.123  3601  4500 V WindowManager: Set focused app to: AppWindowToken{65c892 token=Token{13fce1d ActivityRecord{5cd96f4 u0 com.android.systemui/.recents.RecentsActivity t1243}}} old focus=AppWindowToken{c047679 token=Token{bfa72c3 ActivityRecord{68aee72 u0 com.liyu.tcl.newsapp/.MainActivity t1330}}} moveFocusNow=true
 11-09 15:11:34.123  3601  4500 V WindowManager: findFocusedWindow: Reached focused app=AppWindowToken{65c892 token=Token{13fce1d ActivityRecord{5cd96f4 u0 com.android.systemui/.recents.RecentsActivity t1243}}}
-11-09 15:11:34.124  3601  4500 V WindowManager: Changing focus from Window{641c76c u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity} to null Callers=com.android.server.wm.WindowManagerService.setFocusedApp:2772 com.android.server.am.ActivityManagerService.setResumedActivityUncheckLocked:3306 com.android.server.am.ActivityStack.setResumedActivityLocked:2284 com.android.server.am.ActivityStack.resumeTopActivityInnerLocked:2599 
+11-09 15:11:34.124  3601  4500 V WindowManager: Changing focus from Window{641c76c u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity} to null Callers=com.android.server.wm.WindowManagerService.setFocusedApp:2772 com.android.server.am.ActivityManagerService.setResumedActivityUncheckLocked:3306 com.android.server.am.ActivityStack.setResumedActivityLocked:2284 com.android.server.am.ActivityStack.resumeTopActivityInnerLocked:2599
 11-09 15:11:34.125  3601  4500 D WindowManager: Input focus has changed to null
 11-09 15:11:34.125  3601  3927 D AudioTrack: setVolume(): left = 0.000000, right = 0.000000
 11-09 15:11:34.125  3601  3927 D AudioTrack: stop(): 0x979b0680, mState = 0
@@ -2030,11 +2030,11 @@
 11-09 15:11:34.140  3601  4500 D AppsLockHelperWrapper: clearAllAuthedActivity()
 11-09 15:11:34.142  3601  3697 I TctPhoneWindowManager: task moved to top : com.android.systemui
 11-09 15:11:34.142  3601  3697 D TctPhoneWindowManager: package : com.android.systemui, fullScreenFlag : 4
-11-09 15:11:34.144  3601  3697 I WindowManager: Focus moving from Window{641c76c u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity} to null
+11-09 15:11:34.144  3601  3697 I WindowManager: Focus moving from Window{641c76c u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity} to null
 11-09 15:11:34.153  3601  3695 D AutofillManagerService: Close system dialogs
 11-09 15:11:34.157  3922  3922 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = ViewRoot{6bd2695 com.android.systemui/com.android.systemui.recents.RecentsActivity,ident = 4}, this = DecorView@f6fcb9e[RecentsActivity]
 11-09 15:11:34.159  3922  3922 W RecentsTransitionHelper: Could not get the right view!
-11-09 15:11:34.160 23564 23564 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = ViewRoot{13a121e com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity,ident = 2}, this = DecorView@f7897a3[MainActivity]
+11-09 15:11:34.160 23564 23564 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = ViewRoot{13a121e com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity,ident = 2}, this = DecorView@f7897a3[MainActivity]
 11-09 15:11:34.164  3922  3922 E BufferItemConsumer: [unnamed-3922-51] Failed to release buffer: Unknown error -1 (1)
 11-09 15:11:34.169  3601  4640 I WindowManager: Relayout Window{25f74bc u0 com.android.systemui/com.android.systemui.recents.RecentsActivity}: oldVis=4 newVis=0 focusMayChange = true
 11-09 15:11:34.171  3601  4640 V WindowManager: Changing focus from null to Window{25f74bc u0 com.android.systemui/com.android.systemui.recents.RecentsActivity} Callers=com.android.server.wm.WindowManagerService.relayoutWindow:2200 com.android.server.wm.Session.relayout:239 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:163 
@@ -2053,14 +2053,14 @@
 11-09 15:11:34.213  3114  3266 D APM::AudioPolicyEngine: persist.sys.headset_mode was not set, get the SDM value.
 11-09 15:11:34.218  3114  3266 I chatty  : uid=1041(audioserver) ApmOutput identical 94 lines
 11-09 15:11:34.218  3114  3266 D APM::AudioPolicyEngine: persist.sys.headset_mode was not set, get the SDM value.
-11-09 15:11:34.230   416   416 I SurfaceFlinger: screenshot (com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity#0)
+11-09 15:11:34.230   416   416 I SurfaceFlinger: screenshot (com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity#0)
 11-09 15:11:34.241  3601  4640 D IdleScreen: activityIdleScreen: android.app.ContextImpl@9092957 mNotifyNeeded: false idleIntent: Intent { flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity }
 11-09 15:11:34.241  3601  4777 D AppsLockHelperWrapper: shouldShowAppsLockSnapshot packageName-com.liyu.tcl.newsapp
 11-09 15:11:34.242  3601  4777 D AppsLockHelperWrapper: task.affinity-com.liyu.tcl.newsapp
-11-09 15:11:34.242  3601  4777 D AppsLockHelperWrapper: activityName-com.liyu.tcl.newsapp.MainActivity
+11-09 15:11:34.242  3601  4777 D AppsLockHelperWrapper: activityName-com.liyu.tcl.newsapp.activity.MainActivity
 11-09 15:11:34.242  3601  3697 D AppsLockHelperWrapper: shouldShowAppsLockSnapshot packageName-com.liyu.tcl.newsapp
 11-09 15:11:34.242  3601  3697 D AppsLockHelperWrapper: task.affinity-com.liyu.tcl.newsapp
-11-09 15:11:34.242  3601  3697 D AppsLockHelperWrapper: activityName-com.liyu.tcl.newsapp.MainActivity
+11-09 15:11:34.242  3601  3697 D AppsLockHelperWrapper: activityName-com.liyu.tcl.newsapp.activity.MainActivity
 11-09 15:11:34.338  3142  3142 I thermal_repeater: [recvMdThermalInfo] ret=33, strLen=127,  2, 32767, -127, 101, 32767, 3745
 11-09 15:11:34.350  3601  4500 E TouchFilter: setTouchFilter LOG Enable prameter: 0
 11-09 15:11:34.350  3601  4500 D EventHub: Event Hub Touch Filter log is disabled
@@ -2101,7 +2101,7 @@
 11-09 15:11:35.214  3601  3701 I NetworkStatsRecorder: recordSnapshotLocked: ident[[{type=WIFI, subType=COMBINED, networkId="WIN", metered=false}]]
 11-09 15:11:35.214  3601  3701 W NetworkStatsRecorder: unknown interfaces [lo], ignoring those stats
 11-09 15:11:35.215  3601  3692 I system_server: Successfully killed process cgroup uid 10082 pid 23145 in 41ms
-11-09 15:11:35.215  3601  4490 I WindowManager: WIN DEATH: Window{641c76c u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity}
+11-09 15:11:35.215  3601  4490 I WindowManager: WIN DEATH: Window{641c76c u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity}
 11-09 15:11:35.215   416   498 I SurfaceFlinger: EventThread Client Pid (23564) disconnected by (416)
 11-09 15:11:35.217  3601  3701 I NetworkStatsRecorder: recordSnapshotLocked: ident[[{type=WIFI, subType=COMBINED, networkId="WIN", metered=false}]]
 11-09 15:11:35.217  3601  3701 W NetworkStatsRecorder: unknown interfaces [lo], ignoring those stats
@@ -2835,7 +2835,7 @@
 11-09 15:11:42.921  3601  4777 V WindowManager: Changing focus from Window{129003a u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.SplashActivity} to null Callers=com.android.server.wm.WindowManagerService.setFocusedApp:2772 com.android.server.am.ActivityManagerService.setResumedActivityUncheckLocked:3306 com.android.server.am.ActivityStack.setResumedActivityLocked:2284 com.android.server.am.ActivityStack.minimalResumeActivityLocked:1093 
 11-09 15:11:42.922  3601  4777 D WindowManager: Input focus has changed to null
 11-09 15:11:42.924  3601  3697 I WindowManager: Focus moving from Window{129003a u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.SplashActivity} to null
-11-09 15:11:42.932   411   445 I vendor.mediatek.hardware.power@1.1-impl: notifyAppState pack:com.liyu.tcl.newsapp, act:com.liyu.tcl.newsapp.GuideActivity, pid:23653, state:1
+11-09 15:11:42.932   411   445 I vendor.mediatek.hardware.power@1.1-impl: notifyAppState pack:com.liyu.tcl.newsapp, act:com.liyu.tcl.newsapp.activity.GuideActivity, pid:23653, state:1
 11-09 15:11:42.985  3113  3130 D AAL     : 11-09 03:11:42.980 BL= 338,ESS= 256, 
 11-09 15:11:43.135 23653 23653 I SystemServiceRegistry: AttrName service = android.app.IAttrNameManager$Stub$Proxy@2480e4b
 11-09 15:11:43.135 23653 23653 I AttrNameManager: <<<<<<<<<mService = android.app.IAttrNameManager$Stub$Proxy@2480e4b
@@ -2847,32 +2847,32 @@
 11-09 15:11:43.244 23653 23653 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = null, this = DecorView@3dda779[]
 11-09 15:11:43.247 23653 23653 D WindowClient: Add to mViews: DecorView@3dda779[GuideActivity], this = android.view.WindowManagerGlobal@94a9875
 11-09 15:11:43.249 23653 23653 D ViewRootImpl[GuideActivity]: hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
-11-09 15:11:43.253 23653 23653 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = ViewRoot{fcd6c6c com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity,ident = 1}, this = DecorView@3dda779[GuideActivity]
-11-09 15:11:43.313  3601  4777 I WindowManager: Relayout Window{5ab5bf u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity}: oldVis=4 newVis=0 focusMayChange = true
-11-09 15:11:43.320  3601  4777 V WindowManager: Changing focus from null to Window{5ab5bf u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity} Callers=com.android.server.wm.WindowManagerService.relayoutWindow:2200 com.android.server.wm.Session.relayout:239 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:163 
-11-09 15:11:43.321  3601  4777 D WindowManager: Input focus has changed to Window{5ab5bf u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity}
-11-09 15:11:43.332  3601  3697 I WindowManager: Focus moving from null to Window{5ab5bf u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity}
+11-09 15:11:43.253 23653 23653 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = ViewRoot{fcd6c6c com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity,ident = 1}, this = DecorView@3dda779[GuideActivity]
+11-09 15:11:43.313  3601  4777 I WindowManager: Relayout Window{5ab5bf u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity}: oldVis=4 newVis=0 focusMayChange = true
+11-09 15:11:43.320  3601  4777 V WindowManager: Changing focus from null to Window{5ab5bf u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity} Callers=com.android.server.wm.WindowManagerService.relayoutWindow:2200 com.android.server.wm.Session.relayout:239 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:163
+11-09 15:11:43.321  3601  4777 D WindowManager: Input focus has changed to Window{5ab5bf u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity}
+11-09 15:11:43.332  3601  3697 I WindowManager: Focus moving from null to Window{5ab5bf u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity}
 11-09 15:11:43.384 23653 23678 D HWUIExtension: MTKProgramCache.generateProgram: 68719476736
 11-09 15:11:43.385 23653 23678 D HWUIExtension: createProgram 0x0000001000000000, binary 0x9546da2a, length 11105, format 37168 within 506ns
 11-09 15:11:43.396 14144 14144 I GoogleInputMethod: onFinishInput() : Dummy InputConnection bound
 11-09 15:11:43.396  3601  3697 I ActivityManager: Displayed com.liyu.tcl.newsapp/.GuideActivity: +478ms
 11-09 15:11:43.397 14144 14144 I GoogleInputMethod: onStartInput() : Dummy InputConnection bound
 11-09 15:11:43.419   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.SplashActivity#0] opaque layer with plane alpha:0.99 cannot be handled by hwcomposer
-11-09 15:11:43.419   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.48 cannot be handled by hwcomposer
+11-09 15:11:43.419   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.48 cannot be handled by hwcomposer
 11-09 15:11:43.433   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.SplashActivity#0] opaque layer with plane alpha:0.94 cannot be handled by hwcomposer
-11-09 15:11:43.433   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.77 cannot be handled by hwcomposer
+11-09 15:11:43.433   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.77 cannot be handled by hwcomposer
 11-09 15:11:43.435   411   445 I vendor.mediatek.hardware.power@1.1-impl: PowerHint hint:8, data:0
 11-09 15:11:43.439  3601  4777 D IdleScreen: activityIdleScreen: android.app.ContextImpl@9092957 mNotifyNeeded: false idleIntent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10800100 cmp=com.tct.launcher/.Launcher }
 11-09 15:11:43.439  4620  4620 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = ViewRoot{e076230 com.tct.launcher/com.tct.launcher.Launcher,ident = 0}, this = DecorView@8d9c3e2[Launcher]
 11-09 15:11:43.441  3601  4777 E PowerHalWrapper: <amsBoostStop> duration: 6000ms
 11-09 15:11:43.449   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.SplashActivity#0] opaque layer with plane alpha:0.88 cannot be handled by hwcomposer
-11-09 15:11:43.449   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.92 cannot be handled by hwcomposer
+11-09 15:11:43.449   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.92 cannot be handled by hwcomposer
 11-09 15:11:43.465   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.SplashActivity#0] opaque layer with plane alpha:0.82 cannot be handled by hwcomposer
-11-09 15:11:43.465   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.98 cannot be handled by hwcomposer
+11-09 15:11:43.465   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.98 cannot be handled by hwcomposer
 11-09 15:11:43.480   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.SplashActivity#0] opaque layer with plane alpha:0.75 cannot be handled by hwcomposer
-11-09 15:11:43.480   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:1.00 cannot be handled by hwcomposer
+11-09 15:11:43.480   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:1.00 cannot be handled by hwcomposer
 11-09 15:11:43.496   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.SplashActivity#0] opaque layer with plane alpha:0.71 cannot be handled by hwcomposer
-11-09 15:11:43.496   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:1.00 cannot be handled by hwcomposer
+11-09 15:11:43.496   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:1.00 cannot be handled by hwcomposer
 11-09 15:11:43.511   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.SplashActivity#0] opaque layer with plane alpha:0.70 cannot be handled by hwcomposer
 11-09 15:11:43.597  3113  3130 D AAL     : 11-09 03:11:43.456 BL= 339,ESS= 256, 11-09 03:11:43.487 BL= 340,ESS= 256, 11-09 03:11:43.518 BL= 341,ESS= 256, 11-09 03:11:43.565 BL= 342,ESS= 256, 11-09 03:11:43.597 BL= 343,ESS= 256, 
 11-09 15:11:43.605 23653 23653 D View    : [Warning] assignParent to null: this = DecorView@36633ac[SplashActivity]
@@ -2968,10 +2968,10 @@
 11-09 15:11:46.297   393  6313 D AudioALSAPlaybackHandlerNormal: -open()
 11-09 15:11:46.298   393  6313 E AudioALSAPlaybackHandlerBase: -getHardwareBufferInfo(), pcm_get_htimestamp fail, ret = -1, pcm_get_error = 
 11-09 15:11:46.306  3601  4611 V WindowManager: Set focused app to: AppWindowToken{7f28caf token=Token{280b489 ActivityRecord{3f9a390 u0 com.liyu.tcl.newsapp/.MainActivity t1331}}} old focus=AppWindowToken{a38e260 token=Token{2ab5c92 ActivityRecord{98f321d u0 com.liyu.tcl.newsapp/.GuideActivity t1331}}} moveFocusNow=true
-11-09 15:11:46.306  3601  4611 V WindowManager: Changing focus from Window{5ab5bf u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity} to null Callers=com.android.server.wm.WindowManagerService.setFocusedApp:2772 com.android.server.am.ActivityManagerService.setResumedActivityUncheckLocked:3306 com.android.server.am.ActivityStack.setResumedActivityLocked:2284 com.android.server.am.ActivityStack.minimalResumeActivityLocked:1093 
+11-09 15:11:46.306  3601  4611 V WindowManager: Changing focus from Window{5ab5bf u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity} to null Callers=com.android.server.wm.WindowManagerService.setFocusedApp:2772 com.android.server.am.ActivityManagerService.setResumedActivityUncheckLocked:3306 com.android.server.am.ActivityStack.setResumedActivityLocked:2284 com.android.server.am.ActivityStack.minimalResumeActivityLocked:1093
 11-09 15:11:46.306  3601  4611 D WindowManager: Input focus has changed to null
-11-09 15:11:46.307  3601  3697 I WindowManager: Focus moving from Window{5ab5bf u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity} to null
-11-09 15:11:46.308   411   445 I vendor.mediatek.hardware.power@1.1-impl: notifyAppState pack:com.liyu.tcl.newsapp, act:com.liyu.tcl.newsapp.MainActivity, pid:23653, state:1
+11-09 15:11:46.307  3601  3697 I WindowManager: Focus moving from Window{5ab5bf u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity} to null
+11-09 15:11:46.308   411   445 I vendor.mediatek.hardware.power@1.1-impl: notifyAppState pack:com.liyu.tcl.newsapp, act:com.liyu.tcl.newsapp.activity.MainActivity, pid:23653, state:1
 11-09 15:11:46.358  3113  3130 D AAL     : 11-09 03:11:46.201 BL= 414,ESS= 256, 11-09 03:11:46.217 BL= 413,ESS= 256, 11-09 03:11:46.248 BL= 412,ESS= 256, 11-09 03:11:46.280 BL= 411,ESS= 256, 11-09 03:11:46.358 BL= 412,ESS= 256, 
 11-09 15:11:46.366 23653 23653 I SystemServiceRegistry: AttrName service = android.app.IAttrNameManager$Stub$Proxy@d894046
 11-09 15:11:46.367 23653 23653 I AttrNameManager: <<<<<<<<<mService = android.app.IAttrNameManager$Stub$Proxy@d894046
@@ -2982,11 +2982,11 @@
 11-09 15:11:46.443 23653 23653 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = null, this = DecorView@f7897a3[]
 11-09 15:11:46.445 23653 23653 D WindowClient: Add to mViews: DecorView@f7897a3[MainActivity], this = android.view.WindowManagerGlobal@94a9875
 11-09 15:11:46.448 23653 23653 D ViewRootImpl[MainActivity]: hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
-11-09 15:11:46.452 23653 23653 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = ViewRoot{13a121e com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity,ident = 2}, this = DecorView@f7897a3[MainActivity]
-11-09 15:11:46.487  3601  4611 I WindowManager: Relayout Window{645239a u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity}: oldVis=4 newVis=0 focusMayChange = true
-11-09 15:11:46.491  3601  4611 V WindowManager: Changing focus from null to Window{645239a u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity} Callers=com.android.server.wm.WindowManagerService.relayoutWindow:2200 com.android.server.wm.Session.relayout:239 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:163 
-11-09 15:11:46.491  3601  4611 D WindowManager: Input focus has changed to Window{645239a u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity}
-11-09 15:11:46.495  3601  3697 I WindowManager: Focus moving from null to Window{645239a u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity}
+11-09 15:11:46.452 23653 23653 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = ViewRoot{13a121e com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity,ident = 2}, this = DecorView@f7897a3[MainActivity]
+11-09 15:11:46.487  3601  4611 I WindowManager: Relayout Window{645239a u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity}: oldVis=4 newVis=0 focusMayChange = true
+11-09 15:11:46.491  3601  4611 V WindowManager: Changing focus from null to Window{645239a u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity} Callers=com.android.server.wm.WindowManagerService.relayoutWindow:2200 com.android.server.wm.Session.relayout:239 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:163
+11-09 15:11:46.491  3601  4611 D WindowManager: Input focus has changed to Window{645239a u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity}
+11-09 15:11:46.495  3601  3697 I WindowManager: Focus moving from null to Window{645239a u0 com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity}
 11-09 15:11:46.529  3114  3278 V AudioPolicyIntefaceImpl: stopOutput()
 11-09 15:11:46.529  3114  3278 V AudioPolicyService: AudioCommandThread() adding stop output 13
 11-09 15:11:46.529  3114  3266 V AudioPolicyService: AudioCommandThread() processing stop output 13
@@ -3003,22 +3003,22 @@
 11-09 15:11:46.544 14144 14144 I GoogleInputMethod: onFinishInput() : Dummy InputConnection bound
 11-09 15:11:46.545 14144 14144 I GoogleInputMethod: onStartInput() : Dummy InputConnection bound
 11-09 15:11:46.547  3601  3697 I ActivityManager: Displayed com.liyu.tcl.newsapp/.MainActivity: +241ms
-11-09 15:11:46.557   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.99 cannot be handled by hwcomposer
-11-09 15:11:46.557   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity#0] opaque layer with plane alpha:0.48 cannot be handled by hwcomposer
+11-09 15:11:46.557   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.99 cannot be handled by hwcomposer
+11-09 15:11:46.557   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity#0] opaque layer with plane alpha:0.48 cannot be handled by hwcomposer
 11-09 15:11:46.566   411   445 I vendor.mediatek.hardware.power@1.1-impl: PowerHint hint:8, data:0
 11-09 15:11:46.570  3601  4611 D IdleScreen: activityIdleScreen: android.app.ContextImpl@9092957 mNotifyNeeded: false idleIntent: Intent { cmp=com.liyu.tcl.newsapp/.MainActivity }
-11-09 15:11:46.571   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.94 cannot be handled by hwcomposer
-11-09 15:11:46.571   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity#0] opaque layer with plane alpha:0.77 cannot be handled by hwcomposer
-11-09 15:11:46.586   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.88 cannot be handled by hwcomposer
-11-09 15:11:46.587   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity#0] opaque layer with plane alpha:0.92 cannot be handled by hwcomposer
-11-09 15:11:46.602   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.82 cannot be handled by hwcomposer
-11-09 15:11:46.602   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity#0] opaque layer with plane alpha:0.98 cannot be handled by hwcomposer
-11-09 15:11:46.618   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.75 cannot be handled by hwcomposer
-11-09 15:11:46.618   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity#0] opaque layer with plane alpha:1.00 cannot be handled by hwcomposer
+11-09 15:11:46.571   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.94 cannot be handled by hwcomposer
+11-09 15:11:46.571   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity#0] opaque layer with plane alpha:0.77 cannot be handled by hwcomposer
+11-09 15:11:46.586   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.88 cannot be handled by hwcomposer
+11-09 15:11:46.587   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity#0] opaque layer with plane alpha:0.92 cannot be handled by hwcomposer
+11-09 15:11:46.602   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.82 cannot be handled by hwcomposer
+11-09 15:11:46.602   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity#0] opaque layer with plane alpha:0.98 cannot be handled by hwcomposer
+11-09 15:11:46.618   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.75 cannot be handled by hwcomposer
+11-09 15:11:46.618   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity#0] opaque layer with plane alpha:1.00 cannot be handled by hwcomposer
 11-09 15:11:46.622   416   416 I DisplayDevice: [Built-in Screen (type:0)] fps:33.769119,dur:1006.84,max:487.45,min:13.98
-11-09 15:11:46.634   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.71 cannot be handled by hwcomposer
-11-09 15:11:46.634   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.MainActivity#0] opaque layer with plane alpha:1.00 cannot be handled by hwcomposer
-11-09 15:11:46.649   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.GuideActivity#0] opaque layer with plane alpha:0.70 cannot be handled by hwcomposer
+11-09 15:11:46.634   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.71 cannot be handled by hwcomposer
+11-09 15:11:46.634   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.MainActivity#0] opaque layer with plane alpha:1.00 cannot be handled by hwcomposer
+11-09 15:11:46.649   416   416 W Layer   : [com.liyu.tcl.newsapp/com.liyu.tcl.newsapp.activity.GuideActivity#0] opaque layer with plane alpha:0.70 cannot be handled by hwcomposer
 11-09 15:11:46.672  3113  3130 D AAL     : 11-09 03:11:46.578 BL= 418,ESS= 256, 11-09 03:11:46.593 BL= 417,ESS= 256, 11-09 03:11:46.625 BL= 416,ESS= 256, 11-09 03:11:46.641 BL= 417,ESS= 256, 11-09 03:11:46.672 BL= 418,ESS= 256, 
 11-09 15:11:46.741 23653 23653 D View    : [Warning] assignParent to null: this = DecorView@3dda779[GuideActivity]
 11-09 15:11:46.746 23653 23653 D WindowClient: Remove from mViews: DecorView@3dda779[GuideActivity], this = android.view.WindowManagerGlobal@94a9875

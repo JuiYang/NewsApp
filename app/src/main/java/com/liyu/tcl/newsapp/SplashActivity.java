@@ -10,6 +10,8 @@ import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
 import android.widget.LinearLayout;
 
+import com.liyu.tcl.newsapp.activity.GuideActivity;
+import com.liyu.tcl.newsapp.activity.MainActivity;
 import com.liyu.tcl.newsapp.utils.CacheUtil;
 import com.liyu.tcl.newsapp.utils.LogUtil;
 

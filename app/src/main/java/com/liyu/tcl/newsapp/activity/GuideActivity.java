@@ -1,4 +1,4 @@
-package com.liyu.tcl.newsapp;
+package com.liyu.tcl.newsapp.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,6 +14,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
+import com.liyu.tcl.newsapp.R;
+import com.liyu.tcl.newsapp.SplashActivity;
 import com.liyu.tcl.newsapp.utils.CacheUtil;
 import com.liyu.tcl.newsapp.utils.DensityUtil;
 
