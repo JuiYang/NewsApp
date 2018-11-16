@@ -15,6 +15,8 @@ import com.liyu.tcl.newsapp.activity.MainActivity;
 import com.liyu.tcl.newsapp.utils.CacheUtil;
 import com.liyu.tcl.newsapp.utils.LogUtil;
 
+import org.xutils.x;
+
 public class SplashActivity extends AppCompatActivity {
     private static final String TAG = SplashActivity.class.getSimpleName();
     private LinearLayout linearLayout;
@@ -23,6 +25,8 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+
+        x.Ext.init(getApplication());
 
         linearLayout = (LinearLayout) findViewById(R.id.linear_layout);
 

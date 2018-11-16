@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_content"
+    android:orientation="vertical">
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+    </android.support.v4.view.ViewPager>
+
+
+    <RadioGroup
+        android:id="@+id/rg_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_tab_bg"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:drawableTop="@drawable/home_bottom_selector"
+            android:id="@+id/bt_home"
+            android:gravity="center"
+            android:text="主页"
+            style="@style/bottom_tag_style"/>
+
+
+        <RadioButton
+            android:id="@+id/bt_newscenter"
+            style="@style/bottom_tag_style"
+            android:drawableTop="@drawable/newscenter_bottom_selector"
+            android:gravity="center"
+            android:text="新闻" />
+
+
+        <RadioButton
+            android:id="@+id/bt_smartserv"
+            style="@style/bottom_tag_style"
+            android:drawableTop="@drawable/smartservice_bottom_selector"
+            android:gravity="center"
+            android:text="智慧" />
+
+
+        <RadioButton
+            android:id="@+id/bt_gov"
+            style="@style/bottom_tag_style"
+            android:drawableTop="@drawable/govaffair_bottom_selector"
+            android:gravity="center"
+            android:text="政要" />
+
+
+        <RadioButton
+            android:id="@+id/bt_setting"
+            style="@style/bottom_tag_style"
+            android:drawableTop="@drawable/setting_bottom_selector"
+            android:gravity="center"
+            android:text="设置" />
+    </RadioGroup>
+
+</LinearLayout>
