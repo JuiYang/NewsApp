@@ -1,37 +1,37 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml:2:1-7:12
-INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml:2:1-7:12
-INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml:2:1-7:12
-INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml:2:1-7:12
-INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml:2:1-7:12
-INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml:2:1-7:12
-INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml:2:1-7:12
+ADDED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml:2:1-7:12
+INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml:2:1-7:12
+INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml:2:1-7:12
+INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml:2:1-7:12
+INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml:2:1-7:12
+INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml:2:1-7:12
+INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml:2:1-7:12
 	package
-		ADDED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml:3:5-50
-		INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml
-		INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml
+		ADDED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml:3:5-50
+		INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml
 	android:versionName
-		ADDED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml:5:5-30
-		INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml
-		INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml
+		ADDED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml:5:5-30
+		INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml:2:11-69
+		ADDED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml:4:5-28
-		INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml
-		INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml
+		ADDED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml:4:5-28
+		INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml
 uses-sdk
-INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml
-INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml
-INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml
-INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml
+INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml
+INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml
+INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml
+INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml
-		ADDED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml
-		INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml
+		INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml
+		ADDED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml
-		ADDED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml
-		INJECTED from /home/tclxa/AndroidStudioProjects/FirstCode/NewsApp/SlidingMenulibrary/AndroidManifest.xml
+		INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml
+		ADDED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioWorkspace\NewsApp\SlidingMenulibrary\AndroidManifest.xml

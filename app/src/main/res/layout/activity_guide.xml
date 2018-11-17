@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.GuideActivity"
+    tools:context="com.liyu.tcl.newsapp.activity.GuideActivity"
     tools:showIn="@layout/activity_guide">
 
     <android.support.v4.view.ViewPager
@@ -16,8 +16,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp" />
 
-    <Button
-        android:id="@+id/btn_enter_app"
+    <Button android:id="@+id/btn_enter_app"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -29,7 +28,6 @@
         android:textSize="30sp"
         android:layout_marginLeft="30dp"
         android:visibility="gone"/>
-
 
     <RelativeLayout
         android:id="@+id/guide_slide"

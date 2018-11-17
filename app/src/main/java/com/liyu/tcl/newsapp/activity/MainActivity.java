@@ -14,7 +14,7 @@ import com.liyu.tcl.newsapp.utils.DensityUtil;
 public class MainActivity extends SlidingFragmentActivity {
     public static final String MAIN_CONTENT = "main_content";
     public static final String MAIN_LEFT_MENU = "main_left_menu";
-    private SlidingMenu slidingMenu;
+    public SlidingMenu slidingMenu;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

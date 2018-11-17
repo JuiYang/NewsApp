@@ -87,8 +87,6 @@ public class GuideActivity extends AppCompatActivity {
                 finish();
             }
         });
-
-
     }
 
     // 监听滑动页面
