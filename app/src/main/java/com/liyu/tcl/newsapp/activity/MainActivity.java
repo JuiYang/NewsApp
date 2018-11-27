@@ -1,4 +1,4 @@
-package com.liyu.tcl.newsapp.activity;
+package com.liyu.tcl.newsapp;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
@@ -6,10 +6,11 @@ import android.support.v4.app.FragmentTransaction;
 
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
-import com.liyu.tcl.newsapp.R;
 import com.liyu.tcl.newsapp.fragment.ContentFragment;
 import com.liyu.tcl.newsapp.fragment.LeftFragment;
 import com.liyu.tcl.newsapp.utils.DensityUtil;
+
+import org.xutils.x;
 
 public class MainActivity extends SlidingFragmentActivity {
     public static final String MAIN_CONTENT = "main_content";
@@ -20,6 +21,8 @@ public class MainActivity extends SlidingFragmentActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        x.Ext.init(this);
 
         setBehindContentView(R.layout.left_menu);
         slidingMenu = getSlidingMenu();
